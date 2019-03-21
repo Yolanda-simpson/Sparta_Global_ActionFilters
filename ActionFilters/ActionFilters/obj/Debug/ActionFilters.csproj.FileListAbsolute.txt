@@ -81,3 +81,4 @@ C:\Users\tech-w99a.LAPTOP-3BLG1NHP\Engineering26\week10\day3\Sparta_Global_Actio
 C:\Users\tech-w99a.LAPTOP-3BLG1NHP\Engineering26\week10\day3\Sparta_Global_ActionFilters\ActionFilters\ActionFilters\obj\Debug\ActionFilters.csproj.CopyComplete
 C:\Users\tech-w99a.LAPTOP-3BLG1NHP\Engineering26\week10\day3\Sparta_Global_ActionFilters\ActionFilters\ActionFilters\obj\Debug\ActionFilters.dll
 C:\Users\tech-w99a.LAPTOP-3BLG1NHP\Engineering26\week10\day3\Sparta_Global_ActionFilters\ActionFilters\ActionFilters\obj\Debug\ActionFilters.pdb
+C:\Users\tech-w99a.LAPTOP-3BLG1NHP\Engineering26\week10\day3\Sparta_Global_ActionFilters\ActionFilters\ActionFilters\obj\Debug\ActionFilters.csprojAssemblyReference.cache

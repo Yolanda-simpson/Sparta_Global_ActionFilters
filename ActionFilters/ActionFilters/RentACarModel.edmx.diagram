@@ -11,7 +11,7 @@
         <EntityTypeShape EntityType="RentACarModel.RentAMiniBu" Width="1.5" PointX="3.125" PointY="4.25" IsExpanded="true" />
         <EntityTypeShape EntityType="RentACarModel.RentAVan" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="RentACarModel.Van" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <AssociationConnector Association="RentACarModel.FK_dbo_Cars_dbo_RentaCars_RentaCar_rentACarID" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="false" Association="RentACarModel.FK_dbo_Cars_dbo_RentaCars_RentaCar_rentACarID" />
         <AssociationConnector Association="RentACarModel.FK_dbo_MiniBus_dbo_RentAMiniBus_RentAMiniBus_RentAMiniBusID" ManuallyRouted="false" />
         <AssociationConnector Association="RentACarModel.FK_dbo_Vans_dbo_RentAVans_RentAVan_RentAVanID" ManuallyRouted="false" />
       </Diagram>

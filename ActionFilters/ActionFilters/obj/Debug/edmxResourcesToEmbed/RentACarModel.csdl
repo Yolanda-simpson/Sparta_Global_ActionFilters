@@ -82,8 +82,8 @@
     <NavigationProperty Name="RentAVan" Relationship="Self.FK_dbo_Vans_dbo_RentAVans_RentAVan_RentAVanID" FromRole="Vans" ToRole="RentAVans" />
   </EntityType>
   <Association Name="FK_dbo_Cars_dbo_RentaCars_RentaCar_rentACarID">
-    <End Role="RentaCars" Type="Self.RentaCar" Multiplicity="0..1" />
-    <End Role="Cars" Type="Self.Car" Multiplicity="*" />
+    <End Type="Self.RentaCar" Multiplicity="0..1" Role="RentaCars" />
+    <End Type="Self.Car" Multiplicity="*" Role="Cars" />
     <ReferentialConstraint>
       <Principal Role="RentaCars">
         <PropertyRef Name="rentACarID" />
@@ -125,8 +125,8 @@
     <EntitySet Name="RentAVans" EntityType="Self.RentAVan" />
     <EntitySet Name="Vans" EntityType="Self.Van" />
     <AssociationSet Name="FK_dbo_Cars_dbo_RentaCars_RentaCar_rentACarID" Association="Self.FK_dbo_Cars_dbo_RentaCars_RentaCar_rentACarID">
-      <End Role="RentaCars" EntitySet="RentaCars" />
-      <End Role="Cars" EntitySet="Cars" />
+      <End EntitySet="RentaCars" Role="RentaCars" />
+      <End EntitySet="Cars" Role="Cars" />
     </AssociationSet>
     <AssociationSet Name="FK_dbo_MiniBus_dbo_RentAMiniBus_RentAMiniBus_RentAMiniBusID" Association="Self.FK_dbo_MiniBus_dbo_RentAMiniBus_RentAMiniBus_RentAMiniBusID">
       <End Role="RentAMiniBus" EntitySet="RentAMiniBus" />
